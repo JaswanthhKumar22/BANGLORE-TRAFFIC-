@@ -1,93 +1,72 @@
-🚦 Bangalore Traffic Prediction System
+# 🚦 Bangalore Traffic Prediction System
 
-The Bangalore Traffic Prediction System is a machine learning–based project designed to predict traffic conditions across different areas of Bengaluru using historical traffic and environmental data.
+A Machine Learning–based traffic prediction project designed to analyze and forecast traffic conditions across different areas of Bengaluru using historical traffic, environmental, and congestion data.
 
-The system analyzes multiple real-world factors such as traffic volume, congestion levels, weather conditions, and road utilization to determine whether a specific location is likely to experience traffic or smooth flow.
+---
 
-🎯 Project Objective
+## 📌 Project Overview
 
-To develop an intelligent traffic prediction model that helps:
+The Bangalore Traffic Prediction System aims to build an intelligent model that predicts whether traffic is likely to occur in a given area based on multiple real-world factors such as traffic volume, weather conditions, road utilization, and congestion levels.
 
-Commuters plan travel efficiently
+This system can help commuters, urban planners, and authorities make data-driven decisions for better traffic management.
 
-Authorities analyze congestion trends
+---
 
-Improve urban traffic management decisions
+## 🧠 Tech Stack
 
-📊 Dataset Features
+- **Programming Language:** Python  
+- **Machine Learning:** scikit-learn  
+- **Data Processing:** pandas, NumPy  
+- **Visualization:** Matplotlib, Seaborn  
+- **Environment:** Jupyter Notebook  
 
-The model uses a comprehensive dataset containing:
+---
 
-Date
+## 🎯 Objectives
 
-Area Name
+- Predict traffic congestion levels
+- Analyze urban traffic patterns
+- Support smart city planning
+- Assist commuters in route optimization
 
-Road/Intersection Name
+---
 
-Traffic Volume
+## 📊 Dataset Features
 
-Average Speed
+The model is trained on a dataset containing:
 
-Travel Time Index
+- Date
+- Area Name
+- Road / Intersection Name
+- Traffic Volume
+- Average Speed
+- Travel Time Index
+- Congestion Level
+- Road Capacity Utilization
+- Incident Reports
+- Environmental Impact
+- Public Transport Usage
+- Traffic Signal Compliance
+- Parking Usage
+- Pedestrian & Cyclist Count
+- Weather Conditions
+- Roadwork and Construction Activity
 
-Congestion Level
+---
 
-Road Capacity Utilization
+## ⚙️ Machine Learning Workflow
 
-Incident Reports
+1. Data Cleaning and Preprocessing  
+2. Feature Selection and Encoding  
+3. Model Training  
+4. Model Evaluation  
+5. Traffic Prediction  
 
-Environmental Impact
+---
 
-Public Transport Usage
+## ⚡ Key Features
 
-Traffic Signal Compliance
-
-Parking Usage
-
-Pedestrian & Cyclist Count
-
-Weather Conditions
-
-Roadwork and Construction Activity
-
-🤖 Machine Learning Approach
-
-The system applies supervised learning techniques to classify traffic conditions:
-
-Data preprocessing and cleaning
-
-Feature selection and encoding
-
-Model training and evaluation
-
-Traffic classification prediction
-
-⚡ Key Features
-
-Predicts traffic presence or absence
-
-Supports area-based traffic analysis
-
-Considers real-time environmental factors
-
-Provides data-driven congestion insights
-
-🎯 Use Cases
-
-Smart city traffic management
-
-Route planning systems
-
-Urban mobility research
-
-Traffic pattern analysis
-
-🚀 Future Improvements
-
-Real-time traffic API integration
-
-Interactive dashboard visualization
-
-Deep learning–based traffic forecasting
-
-Route optimization suggestions
+- Area-based traffic prediction
+- Uses multiple real-world influencing factors
+- Supports congestion trend analysis
+- Provides data-driven insights
